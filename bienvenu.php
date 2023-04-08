@@ -26,6 +26,7 @@ if($_SESSION["autoriser"]!="oui"){
                 <button type="button"><span></span><a href="supprimer_session.php">logout</a></button>
             </div>
         </div>
+        <!-- hello world -->
     </div>
 
 </body>
