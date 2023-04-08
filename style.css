@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body {
+    max-width: 100%;
+    min-height: 100%;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Btn_add {
+    width: fit-content;
+    margin-bottom:20px;
+    background-color: #2bc48a;
+    padding: 5px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: 0;
+    border-radius: 6px;
+    text-decoration: 0;
+}
+.Btn_add img {
+    margin-right: 5px;
+    height: 20px;
+}
+/*tableau*/
+table {
+    border-collapse:collapse;
+    color: #f6f8f8;
+}
+th {
+    font-size: 16px;
+    border-bottom: 3px solid #ffcb61;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+td {
+    font-weight: 400;
+    padding: 5px 30px;
+    font-size: 14px;
+    text-align: center;
+
+}
+img {
+    height: 25px;
+   
+}
+
+tr:nth-child(2n) td {
+    border-bottom: 1px solid #e0e0e0;
+    border-top:  1px solid #e0e0e0;
+}
+/*Form CSS*/
+.form {
+    background-color: #f6f8f8;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    background-image: url(images/85.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.form form {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+}
+.back_btn {
+    color: #2bc48a;
+    text-decoration: 0;
+    display: flex;
+    align-items: center;
+}
+.back_btn img {
+    height: 16px;
+    margin-right:5px ;
+}
+h2 {
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.erreur_message {
+    color: red;
+    font-size: 12px;
+}
+label {
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #f6f8f8;
+}
+input{
+    padding: 5px;
+    border: 1px solid #999;
+    outline: 0;
+    margin-top: 2px;
+}
+input:focus{
+    border: 1px solid #ffcb61;
+}
+input[type="submit"]{
+    margin-top: 25px;
+    background-color: #2bc48a;
+    border: 1px solid #2bc48a;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+.titre {
+    color: #2bc48a;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.vers_equipes {
+    background-color: #ffcb61;
+    color: #fff;
+    
+}
+.joueurs {
+    width: 100%;
+    height: 100%;
+    background-color: #2bc48a;
+}
+.title_joueur {
+    color: #e0e0e0;
+}
+.container_equipes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    background-image: url("images/equipes2.webp");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.form_equipe form {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+}
+.form_equipe {
+    background-color: #f6f8f8;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    background-image: url(images/main_equipe.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.joueur_table {
+    background-image: url("");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container_joueur{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/background_joueur.jpg");
+    background-position: center;
+    background-repeat: repeat-y;
+    position: relative;
+}
+.container_joueur_a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/background_joueur.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
