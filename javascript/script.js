@@ -1,4 +1,4 @@
-function mafonction(){
+function connexion(){
     const nom = document.getElementById("nom").value;
     const pass = document.getElementById("password").value;
     if (nom === "" || pass === "") {

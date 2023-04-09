@@ -35,7 +35,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire de connexion</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="CSS/style1.css">
 </head>
 <body>
     <div class="autent_content">
@@ -51,11 +51,11 @@
            <input type="text" id="nom" name="nom">
            <label >Mot de Passe</label>
            <input type="password" id="password" name="mdp">
-           <input type="submit" value="Valider" name="boutton-valider" onclick="mafonction()">
+           <input type="submit" value="Valider" name="boutton-valider" onclick="connexion()">
            <p>Non enregistré ?<a href="cree_compte.php" class="inscrire">S'inscrire</a></p>
        </form>
    </section> 
     </div>
-    <script src="script.js" ></script>
+    <script src="javascript/script.js" ></script>
 </body>
 </html>

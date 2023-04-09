@@ -6,16 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulaire de connexion</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="CSS/style1.css">
 </head>
 <body>
 <?php
 if(isset($_POST['valider'])){
     extract($_POST);
+    if(empty($_POST["nom"]) || empty($_POST["email"]) || empty($_POST["mdp"]) || empty($_POST["Rmdp"]) ) {
+        $erreur = "Veuillez remplir tous les champs obligatoires";
+    } else {
     $conn = mysqli_connect("localhost","root","","form");
     $req = mysqli_query($conn,"INSERT INTO utilisateurs VALUES(NULL,'$nom','$email','$mdp')");
     if($req){
         header('location: authentification.php');
+    }
     }
 }
 ?>
@@ -41,6 +45,6 @@ if(isset($_POST['valider'])){
        </form>
    </section> 
 </div>
-            <script src="script.js" ></script>
+            <script src="javascript/script.js" ></script>
 </body>
 </html>
