@@ -39,6 +39,7 @@
             ?>
 
         </p>
+        <!-- hello world -->
         <form action="" method="POST">
             <label>NomEquipe</label>
             <input type="text" name="NomEquipe" >
